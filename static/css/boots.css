@@ -1,0 +1,78 @@
+body {
+    padding-top: 56px;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+.testimonial {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+    border: 0;
+    height: 350px;
+}
+.marquee {
+  overflow: hidden;
+  position: relative;
+}
+.marquee-content {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+.marquee-content img {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* Esta regla de CSS se utiliza para modificar tamaño imágenes en contenedor section  */
+.carousel-inner .carousel-item img{
+    height: 80vh;
+    width: 90vw;
+}
+
+/* Estilos personalizados para mejorar el diseño */
+        .card-oferta {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+        .card-oferta:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+        }
+        .badge-descuento {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            z-index: 10;
+            padding: 8px 12px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        .precio-anterior {
+            text-decoration: line-through;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        .precio-actual {
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
