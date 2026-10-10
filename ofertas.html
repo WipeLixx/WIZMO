@@ -1,0 +1,243 @@
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIZMO</title>
+    <!-- link bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./static/css/boots.css">
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">WIZMO</a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Abrir navegación">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Contáctanos</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Rejilla de Cards -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="ofertas">
+        
+        <!-- Tarjeta 1: PC Gaming -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <!-- Badge de Descuento -->
+                <span class="badge bg-danger badge-descuento rounded-pill">-25% OFF</span>
+                <!-- Imagen del Producto -->
+                <img src="https://agaval.vtexassets.com/arquivos/ids/1676299-800-800?v=638550363121100000&width=800&height=800&aspect=true" class="card-img-top p-3 rounded-4" alt="PC Gaming">
+                <!-- Cuerpo de la Tarjeta -->
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted fs-7 fw-bold mb-1">COMPUTADOR DE OFICINA</span>
+                    <h5 class="card-title fw-bold text-dark mb-2">WIZMO Office Essential</h5>
+                    <!-- Especificaciones cortas -->
+                    <p class="card-text text-muted small flex-grow-1">
+                        Intel Core i3-12100 | 16GB RAM DDR4 | 500GB SSD NVMe | Gráficos integrados.
+                    </p>
+                    <!-- Precios -->
+                    <div class="mb-3">
+                        <span class="precio-anterior d-block">$1.499.000 COP</span>
+                        <span class="precio-actual">$1.299.000 COP</span>
+                    </div>
+                    <!-- Botón de Acción -->
+                    <button class="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 2: PC Oficina -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-warning text-dark badge-descuento rounded-pill">-15% OFF</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnBnG9pjsfHtioUJkY7cJiroigpjh917qzcquUg6yk7Q&s=10" class="card-img-top p-3 rounded-4" alt="PC Oficina">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted fs-7 fw-bold mb-1">COMPUTADOR DE OFICINA</span>
+                    <h5 class="card-title fw-bold text-dark mb-2">WIZMO Business Pro</h5>
+                    <p class="card-text text-muted small flex-grow-1">
+                        AMD Ryzen 5 8600G | 32GB RAM DDR5 | 1TB SSD NVMe | Gráficos Radeon integrados.
+                    </p>
+                    <div class="mb-3">
+                        <span class="precio-anterior d-block">$2.799.000 COP</span>
+                        <span class="precio-actual">$2.379.150 COP</span>
+                    </div>
+                    <button class="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Tarjeta 3: PC Diseño/Creadores -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-20% OFF</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNCGYJkeNwOGv7esQissYud-MeOrDeunVPfYpDO_w4Q&s=10" class="card-img-top p-3 rounded-4" alt="PC Workstation">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted fs-7 fw-bold mb-1">COMPUTADOR GAMER</span>
+                    <h5 class="card-title fw-bold text-dark mb-2">WIZMO Gaming Beast X</h5>
+                    <p class="card-text text-muted small flex-grow-1">
+                        32GB RAM DDR5 | 2TB SSD NVMe | RTX 5080 16GB | Ryzen 7 9800X3D | Especial para gaming en 4K, ray tracing, streaming y edición de video.
+                    </p>
+                    <div class="mb-3">
+                        <span class="precio-anterior d-block">$14.500.000 COP</span>
+                        <span class="precio-actual">$11.200.000 COP</span>
+                    </div>
+                    <button class="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+<!-- Tarjeta 4: PC Gaming -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <!-- Badge de Descuento -->
+                <span class="badge bg-danger badge-descuento rounded-pill">-25% OFF</span>
+                <!-- Imagen del Producto -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaVyGpD9SPEaI2etdq9QAP0oTvV94mOf37YsDsXGZfWg&s=10" class="card-img-top p-3 rounded-4" alt="PC Gaming">
+                <!-- Cuerpo de la Tarjeta -->
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted fs-7 fw-bold mb-1">WORKSTATION</span>
+                    <h5 class="card-title fw-bold text-dark mb-2">WIZMO Workstation Titan</h5>
+                    <!-- Especificaciones cortas -->
+                    <p class="card-text text-muted small flex-grow-1">
+                        AMD Ryzen 9 9950X | 64GB RAM DDR5 | 2TB SSD NVMe | NVIDIA GeForce RTX 5070 Ti 16GB.
+                    </p>
+                    <!-- Precios -->
+                    <div class="mb-3">
+                        <span class="precio-anterior d-block">$8.999.000 COP</span>
+                        <span class="precio-actual">$6.749.250 COP</span>
+                    </div>
+                    <!-- Botón de Acción -->
+                    <button class="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjeta 5: PC Oficina -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-warning text-dark badge-descuento rounded-pill">-15% OFF</span>
+                <img src="https://m.media-amazon.com/images/I/51E71B0JmAL._AC_UF894,1000_QL80_.jpg" class="card-img-top p-3 rounded-4" alt="PC Oficina">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted fs-7 fw-bold mb-1">SERVIDOR</span>
+                    <h5 class="card-title fw-bold text-dark mb-2">WIZMO ServerCore Enterprise</h5>
+                    <p class="card-text text-muted small flex-grow-1">
+                        AMD EPYC 4464P | 128GB RAM ECC DDR5 | 2TB SSD NVMe + 4TB HDD | Red de 10GbE.
+                    </p>
+                    <div class="mb-3">
+                        <span class="precio-anterior d-block">$12.999.000 COP</span>
+                        <span class="precio-actual">$10.849.250 COP</span>
+                    </div>
+                    <button class="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Tarjeta 6: PC Diseño/Creadores -->
+        <div class="col">
+            <div class="card h-100 border-0 shadow-sm card-oferta">
+                <span class="badge bg-danger badge-descuento rounded-pill">-20% OFF</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOAtvRd8YFjcWlpl5BG14EKdFhEXpRt5TdlocXOUbnzYxLx5yCysbT8Og4&s=10" class="card-img-top p-3 rounded-4" alt="PC Workstation">
+                <div class="card-body d-flex flex-column">
+                    <span class="text-uppercase text-muted fs-7 fw-bold mb-1">SERVIDOR</span>
+                    <h5 class="card-title fw-bold text-dark mb-2">WIZMO AI & Compute Ultra</h5>
+                    <p class="card-text text-muted small flex-grow-1">
+                        AMD Ryzen 9 9950X | 128GB RAM DDR5 | 4TB SSD NVMe | NVIDIA GeForce RTX 5090 32GB.
+                    </p>
+                    <div class="mb-3">
+                        <span class="precio-anterior d-block">$24.999.000 COP</span>
+                        <span class="precio-actual">$19.999.200 COP</span>
+                    </div>
+                    <button class="btn btn-primary w-100 fw-bold d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-cart-plus"></i> Añadir al carrito
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- SECCION DE MAPA Y FORMULARIO DE CONTACTO -->
+<section id="contacto" class="bg-light py-5" id="#cuenta">
+    <div class="container">
+        <h2 class="text-center mb-4">Contactenos</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <form>
+                <div class="mb-3">
+                    <label for="" class="form-label">Nombre</label>
+                    <input type="text" name="" id="" class="form-control" requierd>
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">No compartiremos esta informacion</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+                    <textarea name="" id="" rows="10" class="form-control" required="required">
+
+                    </textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Acepta los Terminos y Condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+
+            </div>
+            <!-- seccion de mapa -->
+            <div class="col-md-6">
+                <h5 class="mb-3">Nuestra Ubicación</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52483.555643566906!2d-74.1229345368287!3d4.647699426227712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b669726c3c1%3A0xd7a36eff95b7ec0d!2sNuestro%20Bogot%C3%A1%20Centro%20Comercial!5e0!3m2!1ses!2sco!4v1791657698116!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECCION DE FOOTER Y REDES SOCIALES -->
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-2">&copy;Todos los derechos reservados @WLXX</p>
+    <div class="social-icons">
+        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://x.com/?lang=es" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
